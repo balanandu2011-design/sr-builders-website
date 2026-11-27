@@ -315,3 +315,18 @@ nav a:hover {
     font-size: 26px;
   }
 }
+/* Google Maps Button */
+.map-btn {
+  background: #4285F4 !important;
+  border-color: #4285F4 !important;
+  color: #fff !important;
+  margin: 12px 6px 0 !important;
+}
+.map-btn:hover {
+  background: #3367D6 !important;
+  color: #fff !important;
+}
+.map-btn.outline {
+  background: transparent !important;
+  color: #4285F4 !important;
+}
