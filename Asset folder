@@ -1,0 +1,25 @@
+| GitHub file | Which image |
+| --- | --- |
+| assets/photo-1.jpg | SR Colony - Highlights (Bandamedipally) |
+| assets/photo-2.jpg | SR Colony - Price Rs. 12,000/- + Layout Plan |
+| assets/photo-3.jpg | Victory Venture - Highlights (Siddaipally) |
+| assets/photo-4.jpg | Victory Venture - Price Rs. 12,500/- / Rs. 13,500/- |
+.gallery figure {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  margin: 0;
+}
+.gallery figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.gallery figcaption {
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f2a44;
+  text-align: center;
+}
