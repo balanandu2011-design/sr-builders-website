@@ -330,3 +330,52 @@ nav a:hover {
   background: transparent !important;
   color: #4285F4 !important;
 }
+/* Mobile Sticky Enquiry Bar */
+.mobile-bar {
+  display: none;
+}
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 68px;
+  }
+  .mobile-bar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+    background: #fff;
+    padding: 10px 10px;
+    gap: 8px;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+    border-top: 2px solid #d4af37;
+  }
+  .mobile-btn {
+    flex: 1;
+    text-align: center;
+    padding: 12px 5px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .call-btn {
+    background: #101010;
+    color: #fff;
+  }
+  .whatsapp-btn {
+    background: #25D366;
+    color: #fff;
+  }
+  .visit-btn {
+    background: #d4af37;
+    color: #111;
+  }
+  /* Move WhatsApp float above mobile bar */
+  .whatsapp-float {
+    bottom: 82px !important;
+    right: 12px !important;
+  }
+}
